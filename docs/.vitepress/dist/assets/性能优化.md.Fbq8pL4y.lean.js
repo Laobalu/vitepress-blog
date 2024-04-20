@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a2 as o}from"./chunks/framework.DhS4kvOD.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"性能优化.md","filePath":"性能优化.md"}'),r={name:"性能优化.md"},s=o("",9),i=[s];function c(l,n,h,d,_,p){return t(),a("div",null,i)}const b=e(r,[["render",c]]);export{m as __pageData,b as default};

@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "zh",
   title: "leon's home",
   description: "A VitePress Site",
   srcDir: './article',

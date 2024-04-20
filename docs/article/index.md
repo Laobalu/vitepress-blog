@@ -8,10 +8,10 @@ hero:
   tagline: 不服就干
   actions:
     - theme: brand
-      text: 性能优化
-      link: /性能优化
+      text: 前端
+      link: /数据类型
     - theme: alt
-      text: 前端鉴权
+      text: 后端
       link: /前端鉴权
 
 features:

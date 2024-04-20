@@ -9,26 +9,35 @@ export default defineConfig({
   base: '/vitepress-blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'Examples', link: '/markdown-examples' }
-    // ],
-
+    nav: [
+      { text: '主页', link: '/' },
+      { text: '文章', link: '/数据类型' }
+    ],
     sidebar: [
       {
-        text: '前端',
+        text: 'JavaScript',
         items: [
+          { text: '数据类型', link: '/数据类型' },
+          { text: '执行上下文', link: '/执行上下文' },
+          { text: '原型与继承', link: '/原型与继承' },
+          { text: 'this', link: '/this' },
+          { text: '事件循环', link: '/事件循环' },
+        ]
+      },
+      {
+        text: '工程化',
+        items: [
+          { text: '前端部署', link: '/前端部署' },
           { text: '性能优化', link: '/性能优化' },
           { text: '前端鉴权', link: '/前端鉴权' }
         ]
       },
       {
-        text: '前端工程化',
+        text: '工具',
         items: [
-          { text: '前端部署', link: '/前端部署' },
-          
+          { text: 'macos安装nvm', link: '/macos安装nvm' },
         ]
-      }
+      },
     ],
 
     socialLinks: [

@@ -5,6 +5,7 @@ export default defineConfig({
   title: "leon's home",
   description: "A VitePress Site",
   srcDir: './article',
+  base: 'repo',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [

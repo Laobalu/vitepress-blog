@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.DhS4kvOD.js";const c=JSON.parse('{"title":"前端鉴权","description":"","frontmatter":{},"headers":[],"relativePath":"前端鉴权.md","filePath":"前端鉴权.md"}'),h={name:"前端鉴权.md"},l=n("",8),k=[l];function p(t,e,E,r,d,g){return a(),i("div",null,k)}const o=s(h,[["render",p]]);export{c as __pageData,o as default};

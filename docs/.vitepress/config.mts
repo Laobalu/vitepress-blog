@@ -6,7 +6,7 @@ export default defineConfig({
   title: "leon's home",
   description: "A VitePress Site",
   srcDir: './article',
-  base: 'repo',
+  base: '/vitepress-blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
